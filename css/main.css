@@ -4,12 +4,13 @@
 
 .header-container {
   width: 100vw;
-  height: 100hw;
-  margin-top: 10px;
-  background-color: antiquewhite;
+  padding-top: 10px;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: fixed;
+  align-items: center;
 }
 
 .logo-1 {
@@ -28,9 +29,7 @@
   font-size: 30px;
   color: #ffffff;
   text-align: center;
-
-  .title-1 {
-    display: block;
-    text-align: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
