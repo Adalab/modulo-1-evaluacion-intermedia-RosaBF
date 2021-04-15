@@ -1,3 +1,36 @@
 * {
   font-family: Rubik;
 }
+
+.header-container {
+  width: 100vw;
+  height: 100hw;
+  margin-top: 10px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-1 {
+  width: 155px;
+  height: 100px;
+}
+
+.menu {
+  font-size: 16px;
+}
+
+.main-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3cdbc0;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+
+  .title-1 {
+    display: block;
+    text-align: center;
+  }
+}
