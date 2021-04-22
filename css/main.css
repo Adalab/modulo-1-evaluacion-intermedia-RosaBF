@@ -11,6 +11,7 @@
   flex-direction: column;
   position: fixed;
   align-items: center;
+  justify-content: center;
 }
 
 .logo-1 {
@@ -33,6 +34,7 @@
 
 .link {
   color: #4a4a4a;
+  padding: 1px;
 }
 
 .main-section {
