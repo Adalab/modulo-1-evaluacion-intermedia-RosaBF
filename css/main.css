@@ -5,18 +5,17 @@
 
 .header-container {
   width: 100vw;
-  padding-top: 10px;
+  padding: 10px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   position: fixed;
   align-items: center;
 }
 
 .logo-1 {
   width: 155px;
-  height: 100px;
+  height: 70px;
 }
 
 .menu {
@@ -25,27 +24,48 @@
   text-transform: uppercase;
 }
 
+.nav-links {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  color: #4a4a4a;
+}
+
 .main-section {
   width: 100vw;
   height: 100vh;
   background-color: #3cdbc0;
-  font-size: 30px;
-  color: #ffffff;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.title-1 {
+  width: 200px;
+}
+.title-1 h1 {
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
 @media all and (min-width: 768px) {
   .header-container {
-    /*display: flex;*/
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
   }
   .menu {
     margin-right: 13px;
     font-size: 16px;
+  }
+
+  .title-1 h1 {
+    font-size: 40px;
   }
 }
